@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of a Public Health student focused on Health Informatics and Data Science.">
+  <title>Thanseera Mohamed Shamsudeen | Healthcare Data & Technology</title>
+  <style>
+    :root{--ink:#17253b;--muted:#617086;--blue:#2457a6;--teal:#168b8b;--paper:#f5f8fc;--line:#dfe7f1;--white:#fff}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 Inter,Segoe UI,Arial,sans-serif}
+    a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
+    .wrap{width:min(1080px,92%);margin:auto}
+    header{background:linear-gradient(125deg,#142b4c,#2457a6 65%,#168b8b);color:white;padding:24px 0 76px}
+    nav{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+    .brand{font-weight:700;letter-spacing:.02em}.navlinks{display:flex;gap:20px;flex-wrap:wrap}
+    .navlinks a{color:#eaf2ff;font-size:.94rem}
+    .hero{padding:78px 0 10px;max-width:790px}
+    .eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.78rem;font-weight:700;color:#a9e7e4}
+    h1{font-size:clamp(2.3rem,6vw,4.4rem);line-height:1.08;margin:14px 0 18px;letter-spacing:-.04em}
+    .hero p{font-size:1.15rem;color:#e4edf9;max-width:700px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+    .btn{display:inline-block;padding:11px 18px;border-radius:8px;background:white;color:#18365e;font-weight:700}
+    .btn.outline{background:transparent;border:1px solid #c7d8ee;color:white}
+    main{padding:42px 0 70px}
+    section{margin:0 0 42px;scroll-margin-top:20px}
+    .section-head{margin-bottom:18px}
+    h2{font-size:1.65rem;margin:0 0 6px;letter-spacing:-.02em}
+    .sub{color:var(--muted);margin:0}
+    .panel,.project,.skillbox{background:var(--white);border:1px solid var(--line);border-radius:14px;padding:22px;box-shadow:0 8px 24px rgba(25,50,85,.045)}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .project h3{margin:0 0 8px;font-size:1.12rem}
+    .tag{display:inline-block;background:#eaf2fc;color:#28538c;border-radius:30px;padding:4px 10px;font-size:.78rem;margin:3px 4px 3px 0}
+    .project p{color:var(--muted);margin:8px 0 14px}
+    .project a{font-weight:650}
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skills span{background:#edf3f9;border:1px solid var(--line);border-radius:7px;padding:7px 10px;font-size:.92rem}
+    .two-col{display:grid;grid-template-columns:1.1fr .9fr;gap:16px}
+    .item{padding:0 0 16px;margin:0 0 16px;border-bottom:1px solid var(--line)}
+    .item:last-child{border:0;padding:0;margin:0}
+    .item h3{font-size:1.03rem;margin:0}
+    .item .meta{color:var(--muted);font-size:.9rem;margin:2px 0 6px}
+    footer{background:#142b4c;color:#dce7f5;padding:28px 0;text-align:center}
+    footer a{color:#b9e6e4}
+    @media(max-width:700px){.grid,.two-col{grid-template-columns:1fr}.hero{padding-top:55px}.navlinks{gap:12px}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <nav>
+      <div class="brand">TMS · Portfolio</div>
+      <div class="navlinks">
+        <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="eyebrow">Public Health · Health Informatics · Data Science</div>
+      <h1>Thanseera Mohamed Shamsudeen</h1>
+      <p>Public Health student at California State University, Sacramento, interested in using data, technology, and research to better understand healthcare and community health challenges.</p>
+      <div class="actions">
+        <a class="btn" href="https://github.com/thans028" target="_blank" rel="noopener">Explore my GitHub</a>
+        <a class="btn outline" href="https://www.linkedin.com/in/thanseera-mohamed-shamsudeen-65a71528b" target="_blank" rel="noopener">Connect on LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</header>
+<main class="wrap">
+  <section id="about">
+    <div class="section-head"><h2>About Me</h2><p class="sub">Connecting public health, technology, and analytical thinking.</p></div>
+    <div class="panel">
+      <p>I am studying Public Health at California State University, Sacramento, with a focus on Health Informatics and Data Science. I am interested in how healthcare organizations use information, technology, and collaboration to understand health trends and support informed decisions.</p>
+      <p>Through independent projects, I have explored healthcare and community health data using tools such as Power BI, Excel, and Python. I am continuing to build my technical and analytical skills while learning how they can be applied to real-world healthcare and business challenges.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-head"><h2>Featured Projects</h2><p class="sub">Selected work in healthcare analytics, community health, and business research.</p></div>
+    <div class="grid">
+      <article class="project">
+        <h3>Hospital Readmission Analytics Dashboard</h3>
+        <span class="tag">Power BI</span><span class="tag">Healthcare Analytics</span><span class="tag">Data Visualization</span>
+        <p>Developed an interactive dashboard analyzing 100,000+ hospital records to explore 30-day readmissions, patient age, length of stay, diagnoses, and previous visits.</p>
+        <a href="https://github.com/thans028/Hospital-Readmission-Analytics-Dashboard" target="_blank" rel="noopener">View project repository →</a>
+        <p><em>Power BI report link: add after publishing a safe, public demo.</em></p>
+      </article>
+      <article class="project">
+        <h3>Community Health Data Analysis</h3>
+        <span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">CDC PLACES</span>
+        <p>Explored CDC PLACES county-level data and community health indicators to examine public health trends and their relationship with diabetes prevalence.</p>
+        <a href="https://github.com/thans028/Community-Health-Risk-Prediction" target="_blank" rel="noopener">View project repository →</a>
+      </article>
+      <article class="project">
+        <h3>ESMA ESEF Compliance & Corporate Disclosure Research</h3>
+        <span class="tag">Excel</span><span class="tag">Power BI</span><span class="tag">Business Research</span>
+        <p>Researched ESEF reporting practices across European companies, organized evidence in Excel, and developed a Power BI dashboard to review findings and potential product use cases.</p>
+        <a href="https://github.com/thans028/ESMA-ESEF-Compliance-Research-Dashboard" target="_blank" rel="noopener">View project repository →</a>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-head"><h2>Skills</h2><p class="sub">Tools and strengths I am developing through coursework, projects, and work experience.</p></div>
+    <div class="two-col">
+      <div class="skillbox"><h3>Technical & Analytical</h3><div class="skills">
+        <span>Python</span><span>C++</span><span>Power BI</span><span>Microsoft Excel</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Data Analysis</span><span>Data Visualization</span><span>Research</span>
+      </div></div>
+      <div class="skillbox"><h3>Professional</h3><div class="skills">
+        <span>Communication</span><span>Customer Service</span><span>Teamwork</span><span>Collaboration</span><span>Problem-Solving</span><span>Adaptability</span><span>Attention to Detail</span><span>Willingness to Learn</span>
+      </div></div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="section-head"><h2>Education & Experience</h2><p class="sub">Academic foundation and community-facing experience.</p></div>
+    <div class="two-col">
+      <div class="panel">
+        <div class="item"><h3>California State University, Sacramento</h3><div class="meta">Sacramento, CA · Fall 2026–Present</div><p>Public Health — focus in Health Informatics and Data Science.</p></div>
+        <div class="item"><h3>Folsom Lake College</h3><div class="meta">Folsom, CA · 2025–2026</div><p>Computer Science coursework and transfer preparation.</p></div>
+      </div>
+      <div class="panel">
+        <div class="item"><h3>Walmart · Cashier</h3><div class="meta">June 2025–Present</div><p>Customer service and communication experience in a fast-paced retail environment.</p></div>
+        <div class="item"><h3>Sutter Middle School · School Nurse Assistant Volunteer</h3><div class="meta">Volunteer · Approximately 20 hours</div><p>Assisted the school nurse and supported students in a school environment.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-head"><h2>Connect</h2><p class="sub">For internship opportunities, projects, and professional networking.</p></div>
+    <div class="panel">
+      <p><strong>GitHub:</strong> <a href="https://github.com/thans028" target="_blank" rel="noopener">github.com/thans028</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/thanseera-mohamed-shamsudeen-65a71528b" target="_blank" rel="noopener">View LinkedIn profile</a></p>
+      <p><strong>Handshake:</strong> Add your public profile link here when available.</p>
+      <p><strong>Email:</strong> Add a professional email address after confirming which address you want recruiters to use.</p>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap">© 2026 Thanseera Mohamed Shamsudeen · Student Portfolio</div></footer>
+</body>
+</html>
